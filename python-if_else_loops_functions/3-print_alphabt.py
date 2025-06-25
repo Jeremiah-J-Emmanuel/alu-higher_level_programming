@@ -4,5 +4,4 @@ for i in range(97, 123):
 		continue
 	else:
 		out = chr(i)
-		print(f'{out}', end=" ")
- 
+		print("{}".format(out), end=" ")
