@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-from calculator_1.py import add(a, b)
-from calculator_1.py import sub(a, b)
-from calculator_1.py import mul(a, b)
-from calculator_1.py import div(a, b)
+from calculator_1 import add, sub, mul, div
+
 
 def main():
     a = 10
@@ -19,3 +17,7 @@ def main():
     print("{} / {} = {}".format(a, b, divided))
 
     return added, multied, subtracted, divided
+
+
+if __name__ == "__main__":
+    main()
