@@ -9,7 +9,7 @@ def element_at(my_list, idx):
     elif idx > range:
         return None
     else:
-        ans = my_list[idx]
+        ans = int(my_list[idx])
         return "{}".format(ans)
 
 
