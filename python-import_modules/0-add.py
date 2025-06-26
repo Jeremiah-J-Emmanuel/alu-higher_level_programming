@@ -4,7 +4,7 @@ def main():
     a = 1
     b = 2
     answer = add(a, b)
-    print("{} + {} = {answer}".format(a, b, answer))
+    print("{} + {} = {}".format(a, b, answer))
 
 
 if __name__ == "__main__":
