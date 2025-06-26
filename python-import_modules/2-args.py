@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 from sys import argv
+
+
 def main():
 
     length = len(argv)
@@ -8,7 +10,7 @@ def main():
     if length == 1:
         print("0 arguments.")
     elif length == 2:
-        print("1 argument")
+        print("1 argument:")
         print("1:", argv[1])
     else:
         real_len = length - 1
