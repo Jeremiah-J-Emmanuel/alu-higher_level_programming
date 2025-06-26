@@ -2,7 +2,7 @@
 from calculator_1 import add
 from calculator_1 import sub
 from calculator_1 import mul
-from calculator_1 import div
+from calculator_1 import div(a, b)
 
 def main():
     a = 10
@@ -19,3 +19,5 @@ def main():
     print("{} / {} = {}".format(a, b, divided))
 
     return added, multied, subtracted, divided
+if __name__ == "__main__":
+    main()
