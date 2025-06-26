@@ -8,7 +8,7 @@ def main():
     if length == 1:
         print("0 arguments.")
     elif length == 2:
-        print("1 argument.")
+        print("1 argument")
         print("1:", argv[1])
     else:
         real_len = length - 1
@@ -19,5 +19,5 @@ def main():
             print (f"{count}: {item}")
             count = count + 1
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     main()
