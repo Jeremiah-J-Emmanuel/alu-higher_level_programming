@@ -3,8 +3,6 @@ from calculator_1 import add, sub, mul, div
 
 
 def main():
-
-
     a = 10
     b = 5
 
@@ -19,5 +17,7 @@ def main():
     print("{} / {} = {}".format(a, b, divided))
 
     return added, multied, subtracted, divided
+
+
 if __name__ == "__main__":
     main()
