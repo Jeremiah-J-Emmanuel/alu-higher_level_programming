@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from sys import argv
 
+
 def main():
     count = 0
     for i in argv[1:]:
@@ -11,3 +12,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
