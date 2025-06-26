@@ -4,7 +4,6 @@ from sys import argv
 
 
 def main():
-
     length = len(argv)
 
     if length == 1:
@@ -18,8 +17,9 @@ def main():
         count = 1
         while count <= real_len:
             item = argv[count]
-            print (f"{count}: {item}")
+            print(f"{count}: {item}")
             count = count + 1
+
 
 if __name__ == "__main__":
     main()
