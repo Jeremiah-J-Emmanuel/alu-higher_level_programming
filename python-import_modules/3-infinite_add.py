@@ -6,7 +6,7 @@ def main():
     for i in argv[1:]:
         i = int(i)
         count = count + i
-    
+
     print(count)
 
 if __name__ == "__main__":
