@@ -9,8 +9,9 @@ def element_at(my_list, idx):
     elif idx > range:
         return None
     else:
-        print("Element at index {:d} is {}".format(idx, my_list[idx]))
+        return("{}".format(my_list[idx]))
 
 
 if __name__ == "__main__":
     element_at(my_list, idx)
+ 
