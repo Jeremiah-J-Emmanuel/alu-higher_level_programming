@@ -10,7 +10,7 @@ def main():
 
     print(count)
 
+
 if __name__ == "__main__":
     main()
-
 
