@@ -5,9 +5,9 @@ def print_matrix_integer(matrix=[[]]):
         for j in i:
             range = len(i) - 1
             if i.index(j) < range:
-                print(j, end=" ")
+                print("{:d}".format(j), end=" ")
             else:
-                print(j)
+                print("{:d}".format(j))
 
 
 if __name__ == "__main__":
