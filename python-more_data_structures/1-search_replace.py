@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
     try:
-        idx = my_list.index(search)
-        my_list[idx] = replace
+        new_list = my_list 
+        idx = new_list.index(search)
+        new_list[idx] = replace
         return my_list
     except IndexError:
         return []
