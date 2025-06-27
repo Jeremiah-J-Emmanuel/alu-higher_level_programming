@@ -2,7 +2,7 @@
 def print_matrix_integer(matrix=[[]]):
     for i in matrix:
         if len(i) == 0:
-            print(" ")
+            print("")
         else:
             for j in i:
                 range = len(i) - 1
