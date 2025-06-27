@@ -2,7 +2,6 @@
 def add_tuple(tuple_a=(), tuple_b=()):
 
     fix = (0,)
-    print(type(tuple_a))
     if len(tuple_a) < 2:
         tuple_a += fix
     elif len(tuple_b) < 2:
