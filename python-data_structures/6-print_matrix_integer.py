@@ -1,13 +1,16 @@
-#!/usr/bin/python
-
+#!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     for i in matrix:
-        for j in i:
-            count = len(i) -
-            if i.index(j) > count - 2:
-                print("{}".format(j), end=" ")
-            elif count == len(i)            :
-                print("{}".format(j))
+        if len(i) == 0:
+            print("")
+        else:
+            for j in i:
+                range = len(i) - 1
+                if i.index(j) < range:
+                    print("{:d}".format(j), end=" ")
+                else:
+                    print("{:d}".format(j))
 
 
-print_matrix_integer(matrix=[[1,2,3], [1,5,3], [1,4,5]])
+if __name__ == "__main__":
+    print_matrix_integer(matrix=[[]])
