@@ -11,7 +11,7 @@ def square_matrix_simple(matrix=[]):
                 sqr = j ** 2
                 strapping.append(sqr)
             new_list.append(strapping)
-  
+
     return(new_list)
 
 
