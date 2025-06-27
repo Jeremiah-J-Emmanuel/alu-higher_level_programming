@@ -5,7 +5,7 @@ def search_replace(my_list, search, replace):
     else:
         try:
             new_list = my_list[:]
-            count = 1
+            count = 0
             for i in new_list:
                 if i == search:
                     idx = new_list[count]
