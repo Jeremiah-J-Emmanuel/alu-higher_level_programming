@@ -2,7 +2,8 @@
 def print_sorted_dictionary(a_dictionary):
     sorted_dict_list = sorted(a_dictionary.items())
     sorted_dict = dict(sorted_dict_list)
-    print(sorted_dict)
+    for key,value in sorted_dict:
+        print(f"{key} : {value}")
 
 
 if __name__ == "__main__":
