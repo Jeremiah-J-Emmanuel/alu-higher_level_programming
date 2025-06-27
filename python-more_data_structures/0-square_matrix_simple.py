@@ -2,12 +2,9 @@
 def square_matrix_simple(matrix=[]):
     new_list = []
 
-    if len(matrix) == 0:
-        return matrix
-
     for i in matrix:
         if len(i) == 0:
-            return(i)
+            return []
         else:
             strapping = []
             for j in i:
