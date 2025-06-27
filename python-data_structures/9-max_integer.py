@@ -8,4 +8,4 @@ def max_integer(my_list=[]):
 
 
 if __name__ == "__main__":
-    max_integer([1,35,3,5,2])
+    print("This is the main")
