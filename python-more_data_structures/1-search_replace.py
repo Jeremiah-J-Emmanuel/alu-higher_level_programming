@@ -4,7 +4,7 @@ def search_replace(my_list, search, replace):
         new_list = my_list[:]
         idx = new_list.index(search)
         new_list[idx] = replace
-        return my_list
+        return new_list
     except IndexError:
         return []
 
