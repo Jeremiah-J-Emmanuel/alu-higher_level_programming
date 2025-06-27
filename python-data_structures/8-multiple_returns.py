@@ -3,7 +3,7 @@ def multiple_returns(sentence):
     if len(sentence) == 0:
         return None
     else:
-        len(sentence) == length
+        length == len(sentence)
         first = sentence[0]
         tup1 = (length, first)
         return tup1
