@@ -4,7 +4,7 @@ def square_matrix_simple(matrix=[]):
 
     for i in matrix:
         if len(i) == 0:
-            return []
+            return [[]]
         else:
             strapping = []
             for j in i:
