@@ -3,14 +3,15 @@ def square_matrix_simple(matrix=[]):
     new_list = []
     for i in matrix:
         if len(i) == 0:
-            print("")
+            return("")
         else:
             strapping = []
             for j in i:
                 sqr = j ** 2
                 strapping.append(sqr)
             new_list.append(strapping)
-        return(new_list)
+            
+    return(new_list)
     
 
 if __name__ == "__main__":
