@@ -13,6 +13,6 @@ def safe_print_list(my_list=[], x=0):
     
     print(*new_list, sep="")
     return count
-    
+
 
 print(safe_print_list(my_list=[1, 2, 4,5,6,], x=6))
