@@ -15,4 +15,5 @@ def safe_print_list(my_list=[], x=0):
     return count
 
 
-print(safe_print_list(my_list=[1, 2, 4,5,6,], x=6))
+if __name__ == "__main__":
+    safe_print_list(my_list=[1, 2, 3, 4], x=0)
