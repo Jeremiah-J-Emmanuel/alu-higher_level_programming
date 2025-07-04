@@ -3,9 +3,9 @@ def safe_print_integer(value):
     try:
         print("{:d}".format(value))
         return True
-    except ValueError:
+    except ValueError and TypeError:
         return False
 
 
 if __name__ == "__main__":
-    print(safe_print_integer("Goalll"))
+    print(safe_print_integer([1,2,4,4]))
