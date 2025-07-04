@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+def safe_print_list_intergers(my_list=[], x=0):
+    for i in my_list:
+        try 
 
 
 
@@ -18,13 +21,18 @@
 
 
 
-
-
-
-
-
-
-
+        try:
+            if my_list.index(i) < x:
+                print("{:d}".format(i), end=" ")
+                int_list.append(i)
+                count = count + 1
+            else:
+                print(*["{:d}".format(i)])
+                int_list.append(i)
+                count = count + 1
+        except ValueError:
+                pass
+            
 
 
 
