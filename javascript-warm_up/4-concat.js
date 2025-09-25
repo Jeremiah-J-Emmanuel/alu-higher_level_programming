@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 const {argv} = require("node:process")
 
 first = argv[2]
