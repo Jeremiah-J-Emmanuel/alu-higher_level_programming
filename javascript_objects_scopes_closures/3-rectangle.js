@@ -7,13 +7,13 @@ class Rectangle {
     }
   }
 
-  print() {
-    let i = 1
-    while (i < this.height) {
-        const str = "X";
-        const repeatedStr = str.repeat(this.width);
-        console.log(repeatedStr);
-        i++;
+  print () {
+    let i = 1;
+    while (i <= this.height) {
+      const str = "X";
+      const repeatedStr = str.repeat(this.width);
+      console.log(repeatedStr);
+      i++;
     }
   }
 }
