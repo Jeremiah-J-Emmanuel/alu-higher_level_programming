@@ -1,13 +1,13 @@
 #!/usr/bin/node
 class Rectangle {
-  constructor(w, h) {
+  constructor (w, h) {
     if (w > 0 && h > 0) {
       this.width = w;
       this.height = h;
     }
   }
 
-  print() {
+  print () {
     if (this.width && this.height) {
       let i = 0;
       while (i < this.height) {
@@ -17,14 +17,14 @@ class Rectangle {
     }
   }
 
-  rotate() {
+  rotate () {
     // Correctly swaps the properties, but does not print.
     const temp = this.width;
     this.width = this.height;
     this.height = temp;
   }
 
-  double() {
+  double () {
     // Correctly multiplies the properties, but does not print.
     this.width *= 2;
     this.height *= 2;
